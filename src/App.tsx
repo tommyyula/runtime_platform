@@ -22,7 +22,7 @@ import UserManagement from './pages/UserManagement';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/runtime_platform">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Steward />} />
